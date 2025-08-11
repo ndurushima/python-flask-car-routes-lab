@@ -18,3 +18,5 @@ def models(model):
     else:
         return f'No models called {model} exists in our catalog'
 
+if __name__ == '__main__':
+    app.run(debug=True)
